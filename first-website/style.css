@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+    width: 100%;
+    height: 65vh;
+}
+
+header nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 2rem;
+}
+nav .nav-link ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link ul li{
+    /* margin: 0 20px; */
+    border: 1px solid black;
+    padding: 3px 30px;
+}
+.nav-link ul li:hover{
+    transform: scale(0.9);
+}
+.nav-link ul li:last-child{
+    margin: 0 20px;
+    background-color: black;
+    color: white;
+
+}
+.nav-link ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+.nav-link ul li a.contact{
+    color: white;
+}
+.header-section{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-section h2{
+    font-size: 50px;
+    width: 500px;
+}
+.search-section{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 550px;
+}
+.search-section input{
+    width: 100%;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid black;
+}
+.search-section button{
+    width: 120px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid black;
+}
+.type-service{
+    display: flex;
+    margin-top: 7rem;
+}
+.type-service-icon{
+    margin-right: 20px;
+}
+.section{
+    width: 100%;
+    /* height: 100px; */
+    border: 1px solid black;
+    padding: 1rem 0;
+}
+.section form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+form .input-holder{
+    width: 300px;
+    margin-right: 20px;
+}
+form .input-holder input{
+    width: 100%;
+    padding: 7px 20px;
+}
+form .input-holder select{
+    width: 100%;
+    padding: 7px 20px;
+}
+form .button-holder{
+    width: 120px;
+}
+form .button-holder button{
+    width: 100%;
+    padding: 7px 20px;
+}
+main{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+main .choose{
+    margin-top: 4rem;
+    text-align: center;
+}
+.choose h2{
+    font-size: 37px;
+    margin-bottom: 10px;
+}
+.choose p{
+    font-size: 20px;
+    color: gray;
+}
+.food-column{
+    padding: 1rem 2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.food-column .food-rows{
+    width: 310px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 20px 0;
+}
+.food-rows .food-rows-img{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+.food-rows .food-rows-content{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+
+}
+.food-rows-content p.content-name{
+    font-size: 20px;
+    /* margin: 0 10px; */
+}
+.food-rows-content .food-rows-content-detail{
+    font-size: 20px;
+    display: flex;
+}
+.food-rows-content-detail .food-rows-content-icon{
+    /* margin:0 10px; */
+    margin: 10px 20px 0 0;
+}
+.food-rows-button{
+    margin: 15px auto;
+    width:35%;
+}
+.food-rows-button button{
+    padding: 10px 20px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    /* padding: 10px 60px; */
+}
+.choose-button{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.choose-button button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.special-section-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    background-color: lightgrey;
+    /* background-color: #555; */
+}
+.special-section{
+    width: 50%;
+    padding: 2rem 0;
+
+}
+.special-section h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+
+}
+.special-section h1{
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+.special-section p{
+    margin-bottom: 50px;
+    width: 400px;
+}
+.special-section button{
+    margin-bottom: 60px;
+    width: 100px;
+    padding: 10px 0;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+.special-section span{
+   display: block;
+    margin-bottom: 70px;
+}
+.special-section-box{
+    width: 50%;
+    border: 1px solid black;
+    height: 500px;
+}
+
+.why-choose-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.why-choose-section .skills-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 6rem 0 4rem;
+}
+.customers-review-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    background-color: lightgrey;
+}
+.customers-review-container h2{
+    font-size: 35px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem 0;
+}
+.card-container .card{
+    width: 300px;
+    padding: 1rem 1rem;
+    border: 1px solid black;
+    display: flex;
+    margin-right:3rem;
+}
+.card .avatar{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.card .card-body{
+    width: 170px;
+}
+.card .card-body h5{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.popular-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    width: 100%;
+}
+.popular-container ul strong{
+    font-size: 30px;
+    text-decoration: underline;
+}
+ .popular-container ul li{
+    margin-top: 30px;
+    list-style: none;
+ }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 3rem;
+    border: 1px solid black;
+    background-color: lightgrey;
+}
